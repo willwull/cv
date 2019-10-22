@@ -12,7 +12,8 @@ function Page() {
   useEffect(() => {
     const name = resume.about.name.replace(/\s+/g, "-");
     const dateString = dayjs().format("MMM-YYYY");
-    document.title = `CV-${name}-${dateString}`;
+
+    document.title = `${name}-${dateString}`;
   }, []);
 
   return (

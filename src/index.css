@@ -6,6 +6,10 @@
   --primary: rgb(173, 184, 219);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   font-family: "Open Sans", sans-serif;
@@ -44,25 +48,6 @@ a {
   color: var(--primary);
 }
 
-@media screen {
-  body {
-    display: flex;
-    justify-content: center;
-    background: rgb(62, 61, 66);
-  }
-
-  .cv {
-    width: 21cm;
-    min-height: 29.7cm;
-    padding: 2cm;
-    margin: 2em 0;
-    background: white;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
-      rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
-      rgba(255, 255, 255, 0.5) 0px 0px 0px 1px inset;
-  }
-}
-
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -89,6 +74,25 @@ a {
 
 @media print {
   @page {
-    margin: 2cm;
+    margin: 2.2cm;
+  }
+}
+
+@media screen {
+  body {
+    display: flex;
+    justify-content: center;
+    background: rgb(62, 61, 66);
+  }
+
+  .cv {
+    width: 21cm;
+    min-height: 29.7cm;
+    padding: 2.2cm;
+    margin: 2em 0;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+      rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+      rgba(255, 255, 255, 0.5) 0px 0px 0px 1px inset;
   }
 }

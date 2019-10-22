@@ -98,7 +98,8 @@ export default {
         that are close to graduating.
 
         I was Art Director and part of the IT group, responsible for UI design
-        for web and mobile, web development, developing the iOS app.
+        for web and mobile, web development and developing the iOS app which allowed
+        members to see all events and see other members' location and share status updates.
       `
     }
   ]

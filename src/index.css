@@ -36,10 +36,6 @@ h2 {
   border-bottom: 2pt double var(--primary);
 }
 
-section {
-  margin-bottom: 2em;
-}
-
 .icon {
   color: var(--primary);
 }
@@ -59,6 +55,7 @@ a {
   grid-auto-flow: column;
   gap: 1em;
   font-size: 9pt;
+  color: var(--primary);
 }
 
 .entry {

@@ -13,12 +13,12 @@ export default {
       date: "Jul 2019 - Oct 2019",
       location: "London",
       description: `
-        Front-end JavaScript in WhatsApp using React, Redux, Flow.
-        The internship involves implementing new features for WhatsApp for KaiOS,
+        Front-end JavaScript for WhatsApp using React, Redux, Flow.
+        The internship involved implementing new features for WhatsApp for KaiOS,
         which is used by over 37 million users worldwide.
 
         KaiOS is a mobile operating system for low-end feature phones,
-        so there is a big focus on performance and memory.
+        so there was a big focus on performance and memory.
       `
     },
     {

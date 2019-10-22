@@ -1,0 +1,31 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "My resume",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --port 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willwull/cv.git"
+  },
+  "author": "Willy Liu <willyjliu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willwull/cv/issues"
+  },
+  "homepage": "https://github.com/willwull/cv#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/pro-duotone-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.7",
+    "dayjs": "^1.8.16",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  }
+}

@@ -62,7 +62,7 @@ a {
   display: grid;
   grid-template-columns: 140px 1fr;
   gap: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 
 .entry p {

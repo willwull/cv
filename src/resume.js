@@ -3,7 +3,7 @@ export default {
     name: "Willy Liu",
     email: "willyjliu@gmail.com",
     phone: "+46 73-405 8888",
-    github: "willwull"
+    github: "willwull",
   },
 
   professionalExperiences: [
@@ -13,13 +13,10 @@ export default {
       date: "Jul 2019 - Oct 2019",
       location: "London",
       description: `
-        Front-end JavaScript for WhatsApp using React, Redux, Flow.
+        Front-end JavaScript using React, Redux, Flow.
         The internship involved implementing new features for WhatsApp for KaiOS,
         which is used by over 37 million users worldwide.
-
-        KaiOS is a mobile operating system for low-end feature phones,
-        so there was a big focus on performance and memory.
-      `
+      `,
     },
     {
       title: "Teaching Assistant",
@@ -31,8 +28,8 @@ export default {
 
         This course contains contents ranging from basic web development with HTML and CSS
         to responsive web apps with modern front-end frameworks like React, Angular and Vue.
-        I work with taking lab presentations, grading, and coaching students in their projects.
-      `
+        I worked with taking lab presentations, grading, and coaching students in their projects.
+      `,
     },
     {
       title: "Developer",
@@ -41,23 +38,22 @@ export default {
       location: "Stockholm",
       description: `
         Developer intern working in a small team on creating a new desktop
-        application with chat, audio calling, video calling and screen sharing
-        as an internal communication platform within Ericsson.
-      `
-    }
+        application using Angular/Electron/WebRTC with chat, audio calling,
+        video calling and screen sharing as an internal communication platform
+        within Ericsson.
+      `,
+    },
   ],
 
   education: [
     {
       title: "Master's degree in Computer Science",
       company: "KTH",
-      date: "2018 - 2020",
+      date: "2018 -",
       location: "Stockholm",
       description: `
         Master's program in Computer Science, subtrack Software Technology.
-
-        Planned graduation by June 2020.
-      `
+      `,
     },
     {
       title: "Bachelors's degree in Computer Science",
@@ -68,8 +64,8 @@ export default {
         Degree program in Computer Science ("Civilingenjör Datateknik").
 
         Thesis: Evaluating Classroom Evacuation with Crowd Simulation
-      `
-    }
+      `,
+    },
   ],
 
   skills: [
@@ -77,14 +73,14 @@ export default {
       title: "Languages",
       description: `
         Swedish, English, Mandarin Chinese
-      `
+      `,
     },
     {
       title: "Programming",
       description: `
-        JavaScript, Swift, Java, C#, Python, PHP, SQL, Git
-      `
-    }
+        JavaScript, HTML, CSS, React Native, Swift, Java, C#, PHP, SQL, Git
+      `,
+    },
   ],
 
   extraCurricular: [
@@ -100,7 +96,7 @@ export default {
         I was Art Director and part of the IT group, responsible for UI design
         for web and mobile, web development and developing the iOS app which allowed
         members to see all events and see other members' location and share status updates.
-      `
-    }
-  ]
+      `,
+    },
+  ],
 };

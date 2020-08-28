@@ -21,25 +21,25 @@ function Page() {
       <Header aboutData={resume.about} />
 
       <Section icon="laptop-code" title="Professional experience">
-        {resume.professionalExperiences.map(entry => (
+        {resume.professionalExperiences.map((entry) => (
           <Entry key={entry.title} entry={entry} />
         ))}
       </Section>
 
       <Section icon="graduation-cap" title="Education">
-        {resume.education.map(entry => (
+        {resume.education.map((entry) => (
           <Entry key={entry.title} entry={entry} />
         ))}
       </Section>
 
-      <Section icon="heart" title="Extracurricular activities">
-        {resume.extraCurricular.map(entry => (
+      <Section icon="heart" title="Other projects">
+        {resume.extraCurricular.map((entry) => (
           <Entry key={entry.title} entry={entry} />
         ))}
       </Section>
 
       <Section icon="check" title="Skills">
-        {resume.skills.map(entry => (
+        {resume.skills.map((entry) => (
           <SkillEntry key={entry.title} entry={entry} />
         ))}
       </Section>
